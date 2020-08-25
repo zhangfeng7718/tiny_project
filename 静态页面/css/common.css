@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    overflow: scroll;
+    font-size: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{text-decoration: none;}
+.clearf::after{content: '';clear: both;height: 0;visibility: hidden;display: block;}
+.fl{float: left;}
+.fr{float: right;}
+.topnav{
+background-color: #111;
+width: 1236px;
+margin: 0 auto;
+height: 40px;
+}
+.topnav>.nav-l{
+
+}
+.topnav>.nav-l li{
+    float: left;
+    padding: 5px;
+    margin: 2px 5px 0;
+}
+.topnav>.nav-l li a{
+    font-size: 12px;
+    color: #fff;
+    vertical-align: -1px;
+}
+.topnav>.nav-cart{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #895;
+    position: relative;
+}
+.topnav>.nav-cart .cart-list{
+    width: 200px;
+    height: 500px;
+    background-color: #955;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+.topnav>.nav-info{
+    float: right;
+}
